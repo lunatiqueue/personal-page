@@ -10,14 +10,14 @@ import wildernessImg from "../wilderness.png";
 import coderootsImg from "../coderoots.png";
 
 const projects = [
-  { title: "Tryzub Web Page", description: "Ukrainian-Canadian Association website.", image: ucatImg, liveDemo: "https://www.ucat.ca/" },
+  { title: "DecORDecks", description: "Exterior design shop website.", image: wildernessImg, liveDemo: "https://decordecks.ca", github: "https://github.com/lunatiqueue/Wilderness"},
   { title: "Multicook Brandon", description: "SEO optimized landing page.", image: multicookImg, liveDemo: "https://www.multicookbrandon.ca/" },
   { title: "Tetris Game", description: "TypeScript, React, Tailwind game.", image: tetrisImg, liveDemo: "https://tetris-typescript-taupe.vercel.app/", github: "https://github.com/lunatiqueue/tetris-typescript" },
   { title: "Kuipers Website", description: "Responsive bakery website.", image: kuipersImg, liveDemo: "https://assiniboinecreative.media/student/wid/2023/kochenkov/fe_kuipers/"},
   { title: "CodeRoots Platform", description: "Community platform with modern tech.", image: coderootsImg, liveDemo: "https://coderoots.net/"},
-  { title: "Wilderness App", description: "Hiking trails app with animations.", image: wildernessImg, liveDemo: "https://lunatiqueue.github.io/Wilderness/", github: "https://github.com/lunatiqueue/Wilderness" },
+  { title: "Tryzub Web Page", description: "Ukrainian-Canadian Association website.", image: ucatImg, liveDemo: "https://www.ucat.ca/" },
   // { title: "TODO Windows App", description: "Hiking trails app with animations.", image: tetrisImg, liveDemo: "#", github: "#" },
-  // { title: "Minutee Web App", description: "Hiking trails app with animations.", image: tetrisImg, liveDemo: "#", github: "#" },
+  // { title: "Minutee Web App", description: "Hiking trailsanimations.", image: tetrisImg, liveDemo: "#", github: "#" },
 ];
 
 const Projects = () => {
